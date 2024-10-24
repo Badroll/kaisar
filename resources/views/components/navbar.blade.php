@@ -38,70 +38,87 @@
 		{{-- menu navbar desktop --}}
 		<div
 			class="uppercase font-semibold hidden md:flex text-base space-x-4 md:space-x-3 xl:space-x-8"
-			x-show="show === false"
-		>
+			x-show="show === false">
 			<div class="">
 				<a href="#kaisar-whyus" class="relative flex flex-col items-center py-2 group text-sm px-1">
-					<div class="{{ Request::path() == '/#kaisar-whyus' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">mengapa memilih kami</div>
+					<div class="{{ Request::path() == '/' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">mengapa memilih kami</div>
 					<div
-					class="{{ Request::path() == '/#kaisar-whyus' ? "w-8 h-1.5 bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
+					class="{{ Request::path() == '/' ? "w-8 h-1.5 group-hover:bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
 					></div>
 				</a>
 			</div>
 			<div class="">
 				<a href="#kaisar-aboutus" class="relative flex flex-col items-center py-2 group text-sm px-1">
-					<div class="{{ Request::path() == '/#kaisar-aboutus' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">tentang kami</div>
+					<div class="{{ Request::path() == '/' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">tentang kami</div>
 					<div
-					class="{{ Request::path() == '/#kaisar-aboutus' ? "w-8 h-1.5 bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
+					class="{{ Request::path() == '/' ? "w-8 h-1.5 group-hover:bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
 					></div>
 				</a>
 			</div>
 			<div class="">
 				<a href="#kaisar-program" class="relative flex flex-col items-center py-2 group text-sm px-1">
-					<div class="{{ Request::path() == '/#kaisar-program' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">kegiatan</div>
+					<div class="{{ Request::path() == '/' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">kegiatan</div>
 					<div
-					class="{{ Request::path() == '/#kaisar-program' ? "w-8 h-1.5 bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
+					class="{{ Request::path() == '/' ? "w-8 h-1.5 group-hover:bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
 					></div>
 				</a>
 			</div>
 			<div class="">
 				<a href="#kaisar-lulusan" class="relative flex flex-col items-center py-2 group text-sm px-1">
-					<div class="{{ Request::path() == '/#kaisar-program' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">lulusan</div>
+					<div class="{{ Request::path() == '/' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">lulusan</div>
 					<div
-					class="{{ Request::path() == '/#kaisar-program' ? "w-8 h-1.5 bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
+					class="{{ Request::path() == '/' ? "w-8 h-1.5 group-hover:bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
 					></div>
 				</a>
 			</div>
 			<div class="">
 				<a href="#kaisar-testimoni" class="relative flex flex-col items-center py-2 group text-sm px-1">
-					<div class="{{ Request::path() == '/#kaisar-testimoni' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">testimoni</div>
+					<div class="{{ Request::path() == '/' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">testimoni</div>
 					<div
-					class="{{ Request::path() == '/#kaisar-testimoni' ? "w-8 h-1.5 bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
+					class="{{ Request::path() == '/' ? "w-8 h-1.5 group-hover:bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
 					></div>
 				</a>
 			</div>
 			<div class="">
 				<a href="#kaisar-harga" class="relative flex flex-col items-center py-2 group text-sm px-1">
-					<div class="{{ Request::path() == '/#kaisar-harga' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">kelas</div>
+					<div class="{{ Request::path() == '/' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">kelas</div>
 					<div
-					class="{{ Request::path() == '/#kaisar-harga' ? "w-8 h-1.5 bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
+					class="{{ Request::path() == '/' ? "w-8 h-1.5 group-hover:bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
 					></div>
 				</a>
 			</div>
 			<div class="">
 				<a href="#kaisar-faq" class="relative flex flex-col items-center py-2 group text-sm px-1">
-					<div class="{{ Request::path() == '/#kaisar-faq' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">faq</div>
+					<div class="{{ Request::path() == '/' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">faq</div>
 					<div
-					class="{{ Request::path() == '/#kaisar-faq' ? "w-8 h-1.5 bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
+					class="{{ Request::path() == '/' ? "w-8 h-1.5 group-hover:bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
 					></div>
 				</a>
 			</div>
 			<div class="">
 				<a href="#kaisar-hubungi" class="relative flex flex-col items-center py-2 group text-sm px-1">
-					<div class="{{ Request::path() == '/#kaisar-hubungi' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">hubungi kami</div>
+					<div class="{{ Request::path() == '/' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">hubungi kami</div>
 					<div
-					class="{{ Request::path() == '/#kaisar-hubungi' ? "w-8 h-1.5 bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
+					class="{{ Request::path() == '/' ? "w-8 h-1.5 group-hover:bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
 					></div>
+				</a>
+			</div>
+			<div class="">
+				<a href="https://member.kaisarbarberacademy.com" target="blank" class="relative flex flex-col items-center py-2 group text-sm px-1">
+					<div class="{{ Request::path() == '/' ? "cursor-pointer text-klinik-primary" : "cursor-pointer text-gray-400" }}">Member</div>
+					<div
+					class="{{ Request::path() == '/' ? "w-8 h-1.5 group-hover:bg-klinik-primary rounded-full absolute bottom-0" : "w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0" }}"
+					></div>
+				</a>
+			</div>
+		</div>
+
+		{{-- menu navbar mobiile --}}
+		<div
+			class="uppercase font-semibold flex text-base md:hidden space-x-4" style="margin-left: auto;">
+			<div class="">
+				<a href="https://member.kaisarbarberacademy.com" target="blank" class="relative flex flex-col items-center py-2 group text-sm px-1">
+					<div class="cursor-pointer text-klinik-primary">member</div>
 				</a>
 			</div>
 		</div>
