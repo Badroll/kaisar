@@ -32,6 +32,68 @@
 
 								<div class="flex flex-col p-6 bg-white rounded-md shadow-card-home swiper-slide">
 									<div>
+										<img src="{{ asset('images/_ks/class_fade.png') }}" alt="icon" class="w-full h-full">
+									</div>
+									<div class="flex-grow">
+										<div class="uppercase font-bold pt-1 text-xs md:text-base">
+											Fade Class
+										</div>
+										<div class="pt-3 text-md md:text-base">
+											<p class="pt-1">• 1x Teori, 6x Praktek</p>
+											<p class="pt-1">• ALAT DAN MODEL DISEDIAKAN TANPA BIAYA TAMBAHAN</p>
+											<p class="pt-1">• Basic Cut Only</p>
+											<p class="pt-1">• Buku Modul</p>
+										</div>
+										<div class="flex justify-center pt-5">
+											<div class="font-semibold pt-1 text-sm md:text-base">
+												Rp 
+											</div>
+											<div class="font-bold pt-1 text-6.5xl md:text-4xl" style="text-decoration: line-through;">
+												2.1
+											</div>
+											<div class="font-semibold pt-1 text-sm md:text-base">
+												JT
+											</div>
+										</div>
+										<div class="flex">
+											<div  class="w-1/4 h-15">
+												<img src="{{ asset('images/_ks/recommend.png') }}" alt="icon" style="display:none;">
+											</div>
+											<div class="flex justify-center w-1/2 text-klinik-primary">
+												<div class="font-semibold pt-1 text-sm md:text-base">
+													Rp 
+												</div>
+												<div class="font-bold pt-1 text-6.5xl md:text-6xl justify-center">
+													1.5
+												</div>
+												<div class="font-semibold pt-1 text-sm md:text-base">
+													JT
+												</div>
+											</div>
+											<div class="w-1/4">
+												<div
+													class="text-sm font-semibold border-2 border-klinik-primary py-1.5 px-3 mt-3 md:px-3 rounded-full text-white bg-klinik-primary" style="display:none;"
+												>
+													22:22:22
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="flex-grow-0">
+										<div class="text-center">
+											<button
+												class="text-sm font-semibold border-2 border-klinik-primary text-klinik-primary py-1.5 px-8 md:px-12 rounded-full hover:text-white hover:bg-klinik-primary"
+											>
+												<a target="_blank" href="https://api.whatsapp.com/send?phone=6285728461282&text=Halo%20Admin%20Kaisar%20Barbershop, aku%20mau%20pesan%20paket%20Fade%20nih..">
+													PESAN SEKARANG
+												</a>
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<div class="flex flex-col p-6 bg-white rounded-md shadow-card-home swiper-slide">
+									<div>
 										<img src="{{ asset('images/_ks/class_basic.png') }}" alt="icon" class="w-full h-full">
 									</div>
 									<div class="flex-grow">
@@ -50,38 +112,31 @@
 											<div class="font-semibold pt-1 text-sm md:text-base">
 												Rp 
 											</div>
-											<div class="font-bold pt-1 text-6.5xl md:text-4xl" style="">
+											<div class="font-bold pt-1 text-6.5xl md:text-4xl" style="text-decoration: line-through;">
 												3.2
 											</div>
 											<div class="font-semibold pt-1 text-sm md:text-base">
 												JT
 											</div>
 										</div>
-										<!-- <div class="flex">
+										<div class="flex">
 											<div  class="w-1/4 h-15">
-												<img src="{{ asset('images/_ks/recommend.png') }}" alt="icon">
+												
 											</div>
 											<div class="flex justify-center w-1/2 text-klinik-primary">
 												<div class="font-semibold pt-1 text-sm md:text-base">
 													Rp 
 												</div>
 												<div class="font-bold pt-1 text-6.5xl md:text-6xl justify-center">
-													1.7
+													1.9
 												</div>
 												<div class="font-semibold pt-1 text-sm md:text-base">
 													JT
 												</div>
 											</div>
 											<div class="w-1/4">
-												<div
-													class="text-sm font-semibold border-2 border-klinik-primary py-1.5 px-3 mt-3 md:px-3 rounded-full text-white bg-klinik-primary"
-													style=""
-													id="countdown-basic"
-												>
-													
-												</div>
 											</div>
-										</div> -->
+										</div>
 									</div>
 									<div class="flex-grow-0">
 										<div class="text-center">
@@ -118,38 +173,30 @@
 											<div class="font-semibold pt-1 text-sm md:text-base">
 												Rp 
 											</div>
-											<div class="font-bold pt-1 text-6.5xl md:text-4xl" style="">
+											<div class="font-bold pt-1 text-6.5xl md:text-4xl" style="text-decoration: line-through;">
 												4.1
 											</div>
 											<div class="font-semibold pt-1 text-sm md:text-base">
 												JT
 											</div>
 										</div>
-										<!-- <div class="flex">
+										<div class="flex">
 											<div  class="w-1/4 h-15">
-												<img src="{{ asset('images/_ks/recommend.png') }}" alt="icon">
 											</div>
 											<div class="flex justify-center w-1/2 text-klinik-primary">
 												<div class="font-semibold pt-1 text-sm md:text-base">
 													Rp 
 												</div>
 												<div class="font-bold pt-1 text-6.5xl md:text-6xl justify-center">
-													2.5
+													2.8
 												</div>
 												<div class="font-semibold pt-1 text-sm md:text-base">
 													JT
 												</div>
 											</div>
 											<div class="w-1/4">
-												<div
-													class="text-sm font-semibold border-2 border-klinik-primary py-1.5 px-3 mt-3 md:px-3 rounded-full text-white bg-klinik-primary"
-													style=""
-													id="countdown-ultimate"
-												>
-													22:22:22
-												</div>
 											</div>
-										</div> -->
+										</div>
 									</div>
 									<div class="flex-grow-0">
 										<div class="text-center">
@@ -187,14 +234,14 @@
 											<div class="font-semibold pt-1 text-sm md:text-base">
 												Rp 
 											</div>
-											<div class="font-bold pt-1 text-6.5xl md:text-4xl" style="">
+											<div class="font-bold pt-1 text-6.5xl md:text-4xl"  style="text-decoration: line-through;">
 												6.4
 											</div>
 											<div class="font-semibold pt-1 text-sm md:text-base">
 												JT
 											</div>
 										</div>
-										<!-- <div class="flex">
+										<div class="flex">
 											<div  class="w-1/4 h-15">
 												<img src="{{ asset('images/_ks/recommend.png') }}" alt="icon" style="display:none;">
 											</div>
@@ -203,7 +250,7 @@
 													Rp 
 												</div>
 												<div class="font-bold pt-1 text-6.5xl md:text-6xl justify-center">
-													4.1
+													4.4
 												</div>
 												<div class="font-semibold pt-1 text-sm md:text-base">
 													JT
@@ -216,9 +263,9 @@
 													22:22:22
 												</div>
 											</div>
-										</div> -->
+										</div>
 									</div>
-									<div class="flex-grow-0">
+									<div class="flex-grow-0 mt-2">
 										<div class="text-center">
 											<button
 												class="text-sm font-semibold border-2 border-klinik-primary text-klinik-primary py-1.5 px-8 md:px-12 rounded-full hover:text-white hover:bg-klinik-primary"
@@ -231,67 +278,6 @@
 									</div>
 								</div>
 								
-								<div class="flex flex-col p-6 bg-white rounded-md shadow-card-home swiper-slide">
-									<div>
-										<img src="{{ asset('images/_ks/class_fade.png') }}" alt="icon" class="w-full h-full">
-									</div>
-									<div class="flex-grow">
-										<div class="uppercase font-bold pt-1 text-xs md:text-base">
-											Fade Class
-										</div>
-										<div class="pt-3 text-md md:text-base">
-											<p class="pt-1">• 1x Teori, 6x Praktek</p>
-											<p class="pt-1">• ALAT DAN MODEL DISEDIAKAN TANPA BIAYA TAMBAHAN</p>
-											<p class="pt-1">• Basic Cut Only</p>
-											<p class="pt-1">• Buku Modul</p>
-										</div>
-										<div class="flex justify-center pt-5">
-											<div class="font-semibold pt-1 text-sm md:text-base">
-												Rp 
-											</div>
-											<div class="font-bold pt-1 text-6.5xl md:text-4xl" style="">
-												2.1
-											</div>
-											<div class="font-semibold pt-1 text-sm md:text-base">
-												JT
-											</div>
-										</div>
-										<!-- <div class="flex">
-											<div  class="w-1/4 h-15">
-												<img src="{{ asset('images/_ks/recommend.png') }}" alt="icon" style="display:none;">
-											</div>
-											<div class="flex justify-center w-1/2 text-klinik-primary">
-												<div class="font-semibold pt-1 text-sm md:text-base">
-													Rp 
-												</div>
-												<div class="font-bold pt-1 text-6.5xl md:text-6xl justify-center">
-													1.1
-												</div>
-												<div class="font-semibold pt-1 text-sm md:text-base">
-													JT
-												</div>
-											</div>
-											<div class="w-1/4">
-												<div
-													class="text-sm font-semibold border-2 border-klinik-primary py-1.5 px-3 mt-3 md:px-3 rounded-full text-white bg-klinik-primary" style="display:none;"
-												>
-													22:22:22
-												</div>
-											</div>
-										</div> -->
-									</div>
-									<div class="flex-grow-0">
-										<div class="text-center">
-											<button
-												class="text-sm font-semibold border-2 border-klinik-primary text-klinik-primary py-1.5 px-8 md:px-12 rounded-full hover:text-white hover:bg-klinik-primary"
-											>
-												<a target="_blank" href="https://api.whatsapp.com/send?phone=6285728461282&text=Halo%20Admin%20Kaisar%20Barbershop, aku%20mau%20pesan%20paket%20Fade%20nih..">
-													PESAN SEKARANG
-												</a>
-											</button>
-										</div>
-									</div>
-								</div>
 
 							</div>
 						</div>
@@ -446,7 +432,7 @@
 													Rp 
 												</div>
 												<div class="font-bold pt-1 text-6.5xl md:text-6xl justify-center">
-													1.8
+													1.9
 												</div>
 												<div class="font-semibold pt-1 text-sm md:text-base">
 													JT
@@ -508,7 +494,7 @@
 													Rp 
 												</div>
 												<div class="font-bold pt-1 text-6.5xl md:text-6xl justify-center">
-													2.7
+													2.8
 												</div>
 												<div class="font-semibold pt-1 text-sm md:text-base">
 													JT
