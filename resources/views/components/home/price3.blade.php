@@ -226,7 +226,7 @@
 											<p class="pt-1">• Basic - Intermediate Cut + Fade</p>
 											<p class="pt-1">• Toning, Massage, Creambath, Highlight Coloring</p>
 											<p class="pt-1">• Bonus Mesin Clipper</p>
-											<p class="pt-1">• Bonus Gunting 1 Set</p>
+											<p class="pt-1">• Bonus Trimmer</p>
 											<p class="pt-1">• Penyaluran Tenaga Kerja</p>
 											<p class="pt-1">• Buku Modul</p>
 										</div>
