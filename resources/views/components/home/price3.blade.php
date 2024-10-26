@@ -48,14 +48,14 @@
 											<div class="font-semibold pt-1 text-sm md:text-base">
 												Rp 
 											</div>
-											<div class="font-bold pt-1 text-6.5xl md:text-4xl" style="text-decoration: line-through;">
+											<div class="font-bold pt-1 text-6.5xl md:text-4xl" style="">
 												2.1
 											</div>
 											<div class="font-semibold pt-1 text-sm md:text-base">
 												JT
 											</div>
 										</div>
-										<div class="flex">
+										<!-- <div class="flex">
 											<div  class="w-1/4 h-15">
 												<img src="{{ asset('images/_ks/recommend.png') }}" alt="icon" style="display:none;">
 											</div>
@@ -77,7 +77,7 @@
 													22:22:22
 												</div>
 											</div>
-										</div>
+										</div> -->
 									</div>
 									<div class="flex-grow-0">
 										<div class="text-center">
@@ -112,14 +112,14 @@
 											<div class="font-semibold pt-1 text-sm md:text-base">
 												Rp 
 											</div>
-											<div class="font-bold pt-1 text-6.5xl md:text-4xl" style="text-decoration: line-through;">
+											<div class="font-bold pt-1 text-6.5xl md:text-4xl" style="">
 												3.2
 											</div>
 											<div class="font-semibold pt-1 text-sm md:text-base">
 												JT
 											</div>
 										</div>
-										<div class="flex">
+										<!-- <div class="flex">
 											<div  class="w-1/4 h-15">
 												
 											</div>
@@ -136,7 +136,7 @@
 											</div>
 											<div class="w-1/4">
 											</div>
-										</div>
+										</div> -->
 									</div>
 									<div class="flex-grow-0">
 										<div class="text-center">
@@ -173,14 +173,14 @@
 											<div class="font-semibold pt-1 text-sm md:text-base">
 												Rp 
 											</div>
-											<div class="font-bold pt-1 text-6.5xl md:text-4xl" style="text-decoration: line-through;">
+											<div class="font-bold pt-1 text-6.5xl md:text-4xl" style="">
 												4.1
 											</div>
 											<div class="font-semibold pt-1 text-sm md:text-base">
 												JT
 											</div>
 										</div>
-										<div class="flex">
+										<!-- <div class="flex">
 											<div  class="w-1/4 h-15">
 											</div>
 											<div class="flex justify-center w-1/2 text-klinik-primary">
@@ -196,7 +196,7 @@
 											</div>
 											<div class="w-1/4">
 											</div>
-										</div>
+										</div> -->
 									</div>
 									<div class="flex-grow-0">
 										<div class="text-center">
@@ -234,14 +234,14 @@
 											<div class="font-semibold pt-1 text-sm md:text-base">
 												Rp 
 											</div>
-											<div class="font-bold pt-1 text-6.5xl md:text-4xl"  style="text-decoration: line-through;">
+											<div class="font-bold pt-1 text-6.5xl md:text-4xl"  style="">
 												6.4
 											</div>
 											<div class="font-semibold pt-1 text-sm md:text-base">
 												JT
 											</div>
 										</div>
-										<div class="flex">
+										<!-- <div class="flex">
 											<div  class="w-1/4 h-15">
 												<img src="{{ asset('images/_ks/recommend.png') }}" alt="icon" style="display:none;">
 											</div>
@@ -263,7 +263,7 @@
 													22:22:22
 												</div>
 											</div>
-										</div>
+										</div> -->
 									</div>
 									<div class="flex-grow-0 mt-2">
 										<div class="text-center">
@@ -277,7 +277,6 @@
 										</div>
 									</div>
 								</div>
-								
 
 							</div>
 						</div>
